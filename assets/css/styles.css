@@ -199,13 +199,15 @@ body {
   top: 16px;
   left: 50%;
   margin-left: -25px;
-  background-color: #999999;
+  background-color: #D0BAC8;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
+
+
 
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -248,6 +250,8 @@ body {
 .timeline-title {
   margin-top: 0;
   color: inherit;
+  font-weight: bold;
+
 }
 
 .timeline-body > p,
@@ -286,7 +290,10 @@ margin-bottom: 10px;
 padding: 0;
 font-size: 20px;
 color: #333;
-text-transform: uppercase; }
+font-family: 'Satisfy', cursive; 
+/*letter-spacing: 2px;*/
+/*text-transform: uppercase; */
+}
 
 aside.sidebar .single h3.side-title:after {
 content: '';
@@ -325,6 +332,11 @@ overflow: hidden; }
 footer {
   background-color:#D0BAC8;
   border-color: solid 3px #fff;
+}
+
+.footjs {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
