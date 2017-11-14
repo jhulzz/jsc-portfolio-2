@@ -10,10 +10,22 @@ body {
   border-color: solid 3px #fff;
 }
 
+.labelsection {
+  font-family: 'Satisfy', cursive; 
+  letter-spacing: 2px; 
+  color:#000;
+}
+
 .profile-pic {
   width:150px;
   height:150px;
   margin-bottom:10px;
+  max-width: 150px;
+  max-height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,0.5);
 }
 
 .profile-card {
@@ -23,17 +35,16 @@ body {
 }
 
 .profile-name {
-  /*background-color:#AB839D;*/
   background-color:#3D3E3D;
   border-color: solid 3px #ccc;
-
+  letter-spacing: 1px;
   color:#fff;
   font-family:'Actor', sans-serif;
-  font-size:16px;
-  font-weight:bold;
+  font-size:20px;
+  text-transform: uppercase;
   padding:5px 0;
   border-radius:100px;
-  max-width:300px;
+  max-width:400px;
   margin:0 auto 10px auto;
 }
 
@@ -91,7 +102,8 @@ body {
   position:absolute;
   width:100%;
   height:70%;
-  background:rgba(255,255,255,0.5);
+  /*background:rgba(255,255,255,0.5);*/
+  background: rgba(234, 225, 231, 1);
   top:0px;
   left:-100%;
   padding:10px;
@@ -262,6 +274,66 @@ body {
 .timeline-body > p + p {
   margin-top: 5px;
 }
+
+/*skills graph*/
+
+.col-md-5 {
+    width: 41.66666667%;
+  }
+  
+.our-skills .progress-bar {
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.progress-bar-success {
+    background-color: #333;
+}
+
+.our-skills .progress-bar {
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.progress-bar-danger {
+    background-color: darkgrey;
+}
+
+.our-skills .progress-bar {
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+
+.progress-bar-warning {
+    background-color: #B8A6B1; }
+    
+.our-skills .progress-bar {
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.progress-bar-info {
+    background-color: #B8A6B1;
+}
+
+.our-skills .progress {
+    height: 36px;
+}
+
+/*skills graph*/
 
 
 /*back to top codes*/

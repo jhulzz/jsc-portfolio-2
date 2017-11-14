@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSC - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">    
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -21,12 +20,12 @@
                 <div class="col-md-12">
                     <nav class="navbar navbar-default">
                         <div class="container-fluid">
-                            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#julieprofile">Julie </a>
+                            <div class="navbar-header"><a class="navbar-brand navbar-link"> </a>
                                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                             </div>
                             <div class="collapse navbar-collapse" id="navcol-1">
                                 <ul class="nav navbar-nav">
-                                    <li class="active" role="presentation"><a href="#">Profile </a></li>
+                                    <li class="active" role="presentation"><a href="#julieprofile">Profile </a></li>
                                     <li role="presentation"><a href="#timeline">Work Adventures</a></li>
                                     <li role="presentation"><a href="#projects">Projects</a></li>
                                     <li role="presentation"><a href="#contact">Contact</a></li>
@@ -47,9 +46,11 @@
                         <div class="profile-back"></div><img class="img-circle profile-pic" src="assets/img/2.jpg">
                         <h3 class="profile-name">Julie Sobremonte Cantada</h3>
                         <p class="profile-bio" style="font-family: 'Satisfy', cursive; letter-spacing: 2px; color: #ccc; font-size: 30px;"><em>weaving dreams into reality</em></p>
-                        <p class="profile-bio">More than 10 years of work experience in IT and Operations; <br>Has full cycle experience in setting up business operations in the Philippines; <br>Has covered overall tasks such as payroll, banking transactions, day-to-day business activities, <br>troubleshooting, and project management; <br>Handled business process improvement projects; <br>Proficient in Windows / Mac / MS Office Applications, and knowledgeable in HTML, HTML5, CSS, CSS3, JS, WordPress, PHP, mySQL.</p>
+                        <div class="container text-center" style="width:80%">
+                        <p class="profile-bio">More than 10 years of work experience in IT and Operations; Has full cycle experience in setting up business operations in the Philippines; Has covered overall tasks such as payroll, banking transactions, day-to-day business activities, hardware troubleshooting, and project management; Handled business process improvement projects; Proficient in MS Office Applications and Mac OSX and has a solid foundation in HTML5, CSS3, Javascript, WordPress, PHP, mySQL and Laravel.</p>
+                        </div>
                         <ul class="social-list">
-                            <li> <i class="fa fa-facebook-official"></i></li>
+                            <li> <a href="facebook.com"></a><i class="fa fa-facebook-official"></i></li>
                             <li> <i class="fa fa-instagram"></i></li>
                             <li> <i class="fa fa-linkedin-square"></i></li>
                         </ul>
@@ -62,7 +63,7 @@
 
         <div class="container">
             <div class="page-header">
-                <h3 id="timeline" style="font-family: 'Satisfy', cursive; letter-spacing: 2px;">my work adventures</h3>
+                <h3 id="timeline" class="labelsection">my work adventures</h3>
             </div>
 
                   <ul class="timeline">
@@ -160,31 +161,9 @@
 
         <div class="container">
           <div class="page-header">
-            <h3 id="timeline" style="font-family: 'Satisfy', cursive; letter-spacing: 2px; color:#000"> education</h3>
+            <h3 id="timeline" class="labelsection"> education</h3>
           </div>
-          <ul class="timeline">
-            <li>
-                 <div class="timeline-badge">
-                    <i class="glyphicon glyphicon-hand-left"></i>
-                 </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Full-Stack Developer (IT Bootcamp)</h4>
-                      <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i>August-November 2017</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
-                      Tuitt Coding Bootcamp, Timog Ave., QC</p>
-                      <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
-                      Bootcamper</p>
-                    </div>
-                  </div>
-            </li>
-
-            <li class="timeline-inverted">
-                  <div class="timeline-badge inverse">
-                    <i class="glyphicon glyphicon-hand-right"></i>
-                  </div>
+          <div class="col-md-6">
                   <div class="timeline-panel">
                     <div class="timeline-heading">
                       <h4 class="timeline-title">B.S. in Computer Science, AMA Computer University</h4>
@@ -193,20 +172,84 @@
                     <div class="timeline-body">
                           <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
                           Farview, Quezon City</p>
-                          <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
+                          <p style="color: lightgrey"><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
                           Graduated Cum Laude</p>
 
                     </div>
                   </div>
-            </li>
-          </ul>
+           </div> 
+           <div class="col-md-6">      
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">IT Coding Bootcamp</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i>August-November 2017</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
+                      Tuitt Incorporated, Timog Ave., Sacred Heart, QC</p>
+                      <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
+                      Participant</p>
+                    </div>
+                  </div>
+            </div>
+            
         </div><!--container for education-->
 
+        <section class="our-skills">
+            <div class="container">
+                <div class="page-header">
+                <h3 id="timeline" class="labelsection">skills</h3>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-5">
+                        <div class="skills-progress">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                    HTML5 / CSS3
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                    Bootstrap
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                    Javascript / jQuery
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                    PHP / MySQL
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    Laravel MVC Framework
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    WordPress CMS
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+          </section>
 
-        <div class="container">
+
+          <div class="container">
             <div>
                 <div id="projects" class="container">
-		              <h3 id="timeline" style="font-family: 'Satisfy', cursive; letter-spacing: 2px; color:#000"> projects</h3>
+		              <div class="page-header">
+                    <h3 id="timeline" class="labelsection">projects</h3>
+                  </div>
             <div>
                 <button class="btn btn-default filter-button" data-filter="all">All</button>
                 <button class="btn btn-inverse filter-button" data-filter="photo">Photo</button>
@@ -291,6 +334,52 @@
                     </div>
                 </div>
 
+                <div class="col-md-3 filter webdesign">
+                    <div class="each-item">
+                        <img class="port-image" src="assets/img/jsc-portfolio-11.png"/>
+                        <div class="cap1">
+                            <h3>Client Confidential - Client's Portal Web and Mobile Application</h3>
+                            <p>Spearheaded the development of an application similar to an online passbook. Written on PHP and Yii Framework.</p>
+                        </div>
+                        <a href="#" target="_blank">
+                            <div class="cap2">
+                                <p class="text-center">Client Confidential</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 filter webdesign">
+                    <div class="each-item">
+                        <img class="port-image" src="assets/img/jsc-portfolio-9.png"/>
+                        <div class="cap1">
+                            <h3>PurpleKnapp - A Travel Maker's App</h3>
+                            <p>A content management system designed for travel agents who needs to update their travel deals within their existing site.</p>
+                        </div>
+                        <a href="https://purpleknapp.000webhostapp.com" target="_blank">
+                            <div class="cap2">
+                                <p class="text-center">Visit</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 filter webdesign">
+                    <div class="each-item">
+                        <img class="port-image" src="assets/img/jsc-portfolio-10.png"/>
+                        <div class="cap1">
+                            <h3>PurpleKnapp - A Travel Maker's App</h3>
+                            <p>A content management system designed for travel agents who needs to update their travel deals within their existing site.</p>
+                        </div>
+                        <a href="https://purpleknapp.000webhostapp.com" target="_blank">
+                            <div class="cap2">
+                                <p class="text-center">Visit</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+
                 <div class="col-md-3 filter social">
                     <div class="each-item">
                         <img class="port-image" src="assets/img/jsc-portfolio-6.png"/>
@@ -369,21 +458,17 @@
                         <form action="index.html" method="POST">
                             <ul class="list-unstyled">
                             <li>
-                            <!-- <div class="icon"><i class="fa fa-map-marker"></i></div> -->
                             <input id="name" name="name" type="text" class="contactfield" placeholder="Your Name">
                             </li>
                             <li>
-                                <!-- <div class="icon"><i class="fa fa-map-marker"></i></div> -->
-                                <input id="email" name="email" type="email" class="contactfield" placeholder="Email address">
+                                <input id="email" name="email" type="email" class="contactfield" placeholder="Your Email address">
                             </li>
 
                             <li>
-                            <!-- <div class="icon"><i class="fa fa-phone"></i></div> -->
-                            <textarea id="message" name="message" class="contactfield" placeholder="Your Message" rows="5"></textarea>
+                            <textarea id="message" name="message" class="contactfield" placeholder="Sample message: Please send in your complete CV." rows="5"></textarea>
                             </li>
 
                             <li>
-                            <!-- <div class="icon"><i class="fa fa-envelope"></i></div> -->
                              <a id="contact-submit" type="submit" class="btn btn-default input-medium">Send</a>
 
                             </li>
