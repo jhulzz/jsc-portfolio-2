@@ -456,24 +456,7 @@
                         <div class="single contact-info">
                         <h3 class="side-title">drop a message</h3>
 
-                        <?php
-
-                        $name = trim($_POST['name']);
-                        $email = trim($_POST['email']);
-                        $comments = trim($_POST['message']);
-
-                        $emailTo = 'jcantada@gmail.com';
-                        $subject = 'Submitted message from '.$name;
-                        $body = "Name: $name \n\nEmail: $email \n\nComments: $comments";
-                        $headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
-
-                        {
-
-                          mail($emailTo, $subject, $body, $headers);
-                          echo 'Message sent';
-                        }
                         
-                        ?>
 
                             <form class="form-horizontal" role="form" method="post" action="sndmail.php">
                                     <ul class="list-unstyled">
