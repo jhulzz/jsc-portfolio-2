@@ -1,28 +1,3 @@
-
-
-<form action="test.php" method="post">
-<table width="400" border="0" cellspacing="2" cellpadding="0">
-<tr>
-<td width="29%" class="bodytext">Your name:</td>
-<td width="71%"><input name="name" type="text" id="name" size="32"></td>
-</tr>
-<tr>
-<td class="bodytext">Email address:</td>
-<td><input name="email" type="text" id="email" size="32"></td>
-</tr>
-<tr>
-<td class="bodytext">Comment:</td>
-<td><textarea name="comment" cols="45" rows="6" id="comment" class="bodytext"></textarea></td>
-</tr>
-<tr>
-<td class="bodytext"> </td>
-<td align="left" valign="top"><input type="submit" name="Submit" value="Send"></td>
-</tr>
-</table>
-</form> 
-
-
-
 <!DOCTYPE html>
 <html>
 
@@ -69,10 +44,10 @@
                 <div class="col-md-12">
                     <div id="julieprofile" class="profile-card">
                         <div class="profile-back"></div><img class="img-circle profile-pic" src="assets/img/2.jpg">
-                        <h3 class="profile-name">Julie Sobremonte Cantada</h3>
+                        <h3 class="profile-name">Cantada, JAS</h3>
                         <p class="profile-bio" style="font-family: 'Satisfy', cursive; letter-spacing: 2px; color: #ccc; font-size: 30px;"><em>weaving dreams into reality</em></p>
                         <div class="container text-center" style="width:80%">
-                        <p class="profile-bio">More than 10 years of work experience in IT and Operations; Has full cycle experience in setting up business operations in the Philippines; Has covered overall tasks such as payroll, banking transactions, day-to-day business activities, hardware troubleshooting, and project management; Handled business process improvement projects; Proficient in MS Office Applications and Mac OSX and has a solid foundation in HTML5, CSS3, Javascript, WordPress, PHP, mySQL and Laravel.</p>
+                        <p class="profile-bio">More than 10 years of work experience in IT and Operations; Has full cycle experience in setting up business operations in the Philippines; Has covered overall tasks such as payroll, banking transactions, day-to-day business activities, hardware troubleshooting, and project management; Handled business process improvement projects; Proficient in MS Office Applications and Mac OSX and has a solid foundation in HTML5, CSS3, Javascript, WordPress, PHP (CodeIgniter and Laravel) and mySQL. Interests are playing basketball, table tennis, indulging in feel-good flicks, video games, gardening, creating visual arts and crafts.</p>
                         </div>
                         <ul class="social-list">
                             <li> <a href="facebook.com"></a><i class="fa fa-facebook-official"></i></li>
@@ -92,6 +67,22 @@
             </div>
 
                   <ul class="timeline">
+
+                    <li class="timeline-inverted">
+                          <div class="timeline-badge inverse">
+                            <i class="glyphicon glyphicon-hand-right"></i>
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Web Applications Developer</h4>
+                              <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> REPUBLIC BISCUIT CORPORATION - Present</small></p>
+                            </div>
+                            <div class="timeline-body">
+                                  <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
+                                  Project-based/web development consultant for internal business systems.</p>
+                            </div>
+                          </div>
+                    </li>
 
                     <li>
                          <div class="timeline-badge">
@@ -214,6 +205,7 @@
                       Tuitt Incorporated, Timog Ave., Sacred Heart, QC</p>
                       <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
                       Participant</p>
+                      <p style="color: lightgrey"><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> Special Citations: Really Responsible and Outstandingly Organized Awards</p>
                     </div>
                   </div>
             </div>
@@ -249,13 +241,13 @@
                     
                     <div class="col-md-6 col-md-offset-1">
                         <div class="progress">
-                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                                    PHP / MySQL
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                    PHP / Laravel and CodeIgniter MVC
                                 </div>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                    Laravel MVC Framework
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    mySQL
                                 </div>
                             </div>
                             <div class="progress">
@@ -280,6 +272,7 @@
                 <button class="btn btn-inverse filter-button" data-filter="photo">Photo</button>
                 <button class="btn btn-inverse filter-button" data-filter="social">Social</button>
                 <button class="btn btn-inverse filter-button" data-filter="webdesign">Web design</button>
+                <button class="btn btn-inverse filter-button" data-filter="print">Print</button>
             </div>
             <br/>
     
@@ -403,6 +396,21 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="col-md-3 filter webdesign">
+                    <div class="each-item">
+                        <img class="port-image" src="assets/img/jsc-portfolio-12.png"/>
+                        <div class="cap1">
+                            <h3>Milea Bee Farm</h3>
+                            <p>A Wordpress theme that has been integrated with an online booking plugin.</p>
+                        </div>
+                        <a href="https://www.mileabeefarm.com" target="_blank">
+                            <div class="cap2">
+                                <p class="text-center">Visit</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 
 
                 <div class="col-md-3 filter social">
@@ -443,6 +451,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3 filter print">
+                    <div class="each-item">
+                        <img class="port-image" src="assets/img/jsc-portfolio-13.jpg"/>
+                        <div class="cap1">
+                            <h3>Batch Shirt</h3>
+                            <p>Design and concept for alumni homecoming shirt</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center">School of St. Anthony - Class of '98</p>
+                        </div>
+                    </div>
+                </div>
            </div>
           </div>
          </div>
@@ -452,14 +472,14 @@
 
        <div class="container">
             <div class="row">
-                 <div class="col-lg-6">
+                 <div class="col-lg-12">
                     <aside class="sidebar">
                         <div class="single contact-info">
                         <h3 class="side-title" id="contact">contact information</h3>
                         <ul class="list-unstyled">
                         <li>
                         <div class="icon"><i class="fa fa-map-marker"></i></div>
-                        <div class="info"><p>Mandaluyong City, 1550</p></div>
+                        <div class="info"><p>Mandaluyong City, Philippines</p></div>
                         </li>
 
                         <li>
@@ -476,58 +496,7 @@
                     </aside>
                 </div>
 
-                <div class="col-lg-6">
-                    <aside class="sidebar">
-                        <div class="single contact-info">
-                        <h3 class="side-title">drop a message</h3>
-
-                        <?php 
-                        if ($_POST["email"]<>'') { 
-                            $ToEmail = 'jcantada@gmail.com'; 
-                            $EmailSubject = 'Inquiry from JSC Portfolio'; 
-                            $mailheader = "From: ".$_POST["email"]."\r\n"; 
-                            $mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
-                            $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
-                            $MESSAGE_BODY = "Name: ".$_POST["name"].""; 
-                            $MESSAGE_BODY .= "Email: ".$_POST["email"].""; 
-                            $MESSAGE_BODY .= "Message: ".nl2br($_POST["message"]).""; 
-                            mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure"); 
-                        ?> 
-
-                        Your message was sent
-
-                        <?php 
-                        } else { 
-                        ?>
-
-                        <form action="index.html" method="POST">
-                            <ul class="list-unstyled">
-                            <li>
-                            <input id="name" name="name" type="text" class="contactfield" placeholder="Your Name">
-                            </li>
-                            <li>
-                                <input id="email" name="email" type="email" class="contactfield" placeholder="Your Email address">
-                            </li>
-
-                            <li>
-                            <textarea id="message" name="message" class="contactfield" placeholder="Sample message: Please send in your complete CV." rows="5"></textarea>
-                            </li>
-
-                            <li>
-                             <a id="contact-submit" type="submit" class="btn btn-default input-medium">Send</a>
-
-                            </li>
-                            </ul>
-                    </form>
-
-                    <?php 
-                    }; 
-                    ?>
-
-                        </div>
-                    </aside>
-                </div>
-              </div>
+                
         </div>
         <br><br>
     <div>
@@ -541,7 +510,7 @@
 
         <footer class="container">
             <div class="container footjs">
-                    <p class="text-center">Julie Cantada &copy; 2017</p>
+                    <p class="text-center">CANTADA JAS &copy; 2018</p>
             </div> 
         </footer>
     </div>
